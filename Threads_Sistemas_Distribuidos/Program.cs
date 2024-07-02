@@ -30,7 +30,7 @@ Console.ReadKey();
 
 void IniciaThreads(int numeroThreads, int numeroExecucoes, bool semConcorrencia)
 {
-    Console.WriteLine("Iniciando threads com concorrencia");
+    Console.WriteLine("Iniciando threads");
     for (int i = 1; i <= numeroThreads; i++)
     {
         var servicoAleatorio = new Random().Next(1, 3);
